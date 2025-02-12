@@ -11,7 +11,7 @@ const MainScreen = () => {
   return (
     <View style={[styles.container, { backgroundColor: theme.background }]}>
       <Text style={[styles.title, { color: theme.textPrimary }]}>Welcome to My App</Text>
-      <Button title="Click Me" color={theme.primary} onPress={() => {}} />
+      <Button title="Go" color={theme.primary} onPress={() => {}} />
       <View>
       {/* Render the SVG component */}
       <MessageIcon width={50} height={50} />
